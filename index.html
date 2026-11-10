@@ -5,18 +5,24 @@
 .dashboard-switch{display:grid;grid-template-columns:1fr 1fr;gap:5px;padding:5px;background:#e9eff6;border-radius:13px;margin:14px 0}.dashboard-switch button{border:0;border-radius:10px;background:transparent;color:#536d88;font-weight:800;padding:12px 7px;min-height:46px;font-size:13px}.dashboard-switch button.active{background:white;color:#175ca7;box-shadow:0 2px 7px #1535531a}.operation-card{border:1px solid #e3eaf1;border-radius:13px;padding:13px;margin:11px 0;background:#fff}.operation-card:first-child{margin-top:0}.operation-card:last-child{margin-bottom:0}.op-data{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-top:12px}.op-data>div{background:#f3f6f9;border-radius:9px;padding:9px 4px;text-align:center}.op-data strong{display:block;font-size:16px}.op-data span{font-size:10px;color:#607386}.op-members{border-top:1px solid #e8eef3;margin-top:12px;padding-top:10px}.op-member{display:flex;justify-content:space-between;gap:8px;padding:6px 0;font-size:12px}.op-member+.op-member{border-top:1px dashed #ecf0f4}
 .trend-card{padding:15px 14px 12px}.trend-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;margin-bottom:4px}.trend-heading h2{margin:0 0 4px}.trend-kpi{font-size:25px;color:#175ca7;font-weight:850;white-space:nowrap}.trend-legend{display:flex;gap:15px;align-items:center;margin-top:6px;font-size:11px;color:#607386}.trend-legend .solid:before,.trend-legend .dashed:before{content:'';display:inline-block;width:17px;border-top:3px solid #2675cd;margin-right:5px;vertical-align:middle}.trend-legend .dashed:before{border-top:2px dashed #98a8ba}.trend-svg{width:100%;height:auto;display:block;overflow:visible}.trend-foot{font-size:11px;color:#6b7f91;line-height:1.5;margin:6px 0 0}.trend-empty{font-size:12px;color:#62758a;background:#f2f6fa;border-radius:10px;padding:10px;margin-top:8px}
 
+/* Améliorations V1.5 : filtres ILO Accueil / Équipe */
+.ilo-filter{display:flex;gap:7px;overflow-x:auto;padding:4px 1px 9px;scrollbar-width:none}.ilo-filter::-webkit-scrollbar{display:none}
+.ilo-filter button{flex-shrink:0;min-height:43px;padding:9px 13px;border-radius:12px;border:1px solid #d5e2ef;background:#fff;color:#496680;font-size:13px;font-weight:800}
+.ilo-filter button.active{background:#185ca7;color:white;border-color:#185ca7;box-shadow:0 2px 7px #183a631f}
+.ilo-filter-heading{font-size:12px;font-weight:750;color:#5c738a;margin:7px 1px 4px}
+.ilo-summary{margin-top:3px}.ilo-summary .metric strong{font-size:20px}
 /* Améliorations V1.4 */
 .category-tile{display:flex;align-items:center;gap:12px;width:100%;text-align:left;border:1px solid #e0e9f1;border-radius:13px;padding:15px;background:#f8fbff;color:#173650;margin:9px 0;min-height:68px}.category-tile .cat-icon{font-size:25px}.category-tile .cat-arrow{font-size:24px;color:#68829d;margin-left:auto}.category-title{font-weight:800;font-size:16px}.danger-zone{border:1px solid #f5d0cd;background:#fff9f8}.history-check{background:#f5f8fc;border-radius:11px;padding:12px;margin:10px 0}.history-actions{display:flex;flex-wrap:wrap;gap:7px;margin-top:9px}.history-actions button{flex:1}.history-session{border-bottom:1px solid #e4ebf2;padding:15px 0}.history-session:last-child{border-bottom:0}.section-hint{margin:5px 0 12px;font-size:12px;color:#6e8297}.archived-banner{background:#fff5df;border:1px solid #f6deb4;border-radius:10px;padding:10px;margin:10px 0;color:#86601a;font-size:12px}
 /* Fiche opérateur détaillée — V1.3 */
 .team-person-open{flex:1;display:flex;align-items:center;gap:11px;text-align:left;background:transparent;border:0;color:inherit;min-width:0;padding:3px 0;min-height:56px}.team-person-open .grow{min-width:0}.team-person-open .name{font-size:15px}.team-chevron{font-size:23px;color:#86a2bc;font-weight:400}.profile-banner{background:linear-gradient(135deg,#173c61,#1765a8);border-radius:17px;padding:19px;color:white;margin-bottom:14px}.profile-banner .avatar{background:#e5f3ff;border-radius:19px}.profile-banner .muted{color:#c7deef}.profile-name{font-size:25px;font-weight:850;letter-spacing:-.5px}.profile-banner .tag{background:#ffffff25;color:#fff}.profile-kpi{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.profile-kpi .metric{padding:14px 8px;text-align:left}.profile-kpi .metric strong{font-size:23px}.profile-kpi .metric span{font-size:11px}.profile-stat-title{font-size:11px;font-weight:700;color:#698097;text-transform:uppercase;letter-spacing:.45px;margin-bottom:7px}.profile-chart{display:flex;align-items:end;gap:8px;height:128px;margin:13px 0 0;border-bottom:1px solid #e2eaf3;padding:0 2px}.profile-col{flex:1;min-width:0;height:100%;display:flex;align-items:center;justify-content:flex-end;flex-direction:column;gap:4px}.profile-bar-area{height:86px;width:100%;display:flex;align-items:flex-end;justify-content:center}.profile-bar{width:80%;max-width:34px;border-radius:7px 7px 0 0;min-height:2px;background:#2675cd}.profile-bar.low{background:#e39a66}.profile-day{font-size:10px;color:#687d91}.profile-value{font-size:10px;color:#2c567d;font-weight:750}.profile-bar.empty{background:#edf1f5;height:3px!important}.profile-session{padding:12px 0;border-top:1px solid #e8eef4}.profile-session:first-of-type{border-top:0}.profile-detail-action{margin-top:12px}.profile-back{display:flex;align-items:center;gap:7px}
 </style></head><body>
-<header><div class="top"><div><div class="brand">🏭 AtelierPilot</div><div class="subtitle">Suivi de production • Version 1.4 · iPhone</div></div><span class="pill">● Démo locale</span></div></header>
+<header><div class="top"><div><div class="brand">🏭 AtelierPilot</div><div class="subtitle">Suivi de production • Version 1.5 · iPhone</div></div><span class="pill">● Démo locale</span></div></header>
 <nav id="nav"><button data-tab="dashboard" class="active">📊 Accueil</button><button data-tab="scan">▣ Scanner</button><button data-tab="team">👥 Équipe</button><button data-tab="ops">⚙️ Opérations</button><button data-tab="skills">🧩 Compétences</button><button data-tab="history">🕘 Historique</button></nav>
 <main id="main"><div class="card"><h1>Bienvenue sur AtelierPilot</h1><p>Chargement de ton tableau de bord…</p><p class="muted small">Si ce message reste affiché, l’aperçu de fichiers de ton téléphone bloque JavaScript. Il faudra ouvrir l’application depuis une adresse web HTTPS.</p></div></main>
 <div id="toast" class="toast hide"></div>
 <script>
 (function(){'use strict';
-var KEY='atelierpilot_iphone_v2', tab='dashboard', dashboardView='people', selected=null, profileId=null, editing=null, useMemory=false, db, chosenCategory=null, editingCheckId=null;
+var KEY='atelierpilot_iphone_v2', tab='dashboard', dashboardView='people', dashboardIlo='all', teamIlo='all', selected=null, profileId=null, editing=null, useMemory=false, db, chosenCategory=null, editingCheckId=null;
 var defaultOps=[{id:'op1',name:'Assemblage',rate:60,lot:20},{id:'op2',name:'Découpe',rate:45,lot:15},{id:'op3',name:'Contrôle',rate:80,lot:20},{id:'op4',name:'Montage',rate:40,lot:10},{id:'op5',name:'Emballage',rate:100,lot:25}];
 var names=['Marie','Jean','Sophie','Paul','Lucas','Emma','Hugo','Léa','Thomas','Chloé'], emojis=['👩🏽','👨🏻','👩🏾','👨🏽','👨🏼','👩🏼','👨🏿','👩🏻','👨🏻‍🦱','👩🏽‍🦱'];
 var defaultPeople=names.map(function(n,i){return{id:'P'+String(i+1).padStart(2,'0'),name:n,avatar:emojis[i],skills: i===0?{'op1':'Expert','op3':'Autonome'}:i===1?{'op2':'Expert','op4':'Autonome'}:{[defaultOps[i%5].id]:'Autonome'},rates:{}}});
@@ -29,6 +35,13 @@ if(!Array.isArray(db.audit))db.audit=[];
 db.ops.forEach(function(o){if(!o.categoryId)o.categoryId='ilo1'});
 function availablePeople(){return db.people.filter(function(p){return !p.archived})}
 function categoryName(id){var c=db.categories.find(function(c){return c.id===id});return c?c.name:'Sans catégorie'}
+function scopedSessions(category){return db.sessions.filter(function(s){var o=op(s.opId);return category==='all'||(o&&o.categoryId===category)})}
+function categoryForPerson(p){var s=active(p.id),o=s&&op(s.opId);return o&&o.categoryId||null}
+function categoryMatchesSession(s,category){var o=op(s.opId);return category==='all'||(o&&o.categoryId===category)}
+function renderIloFilter(value,view){
+ var opts=[{id:'all',name:'Tout l’atelier'}].concat(db.categories);
+ return '<div class="ilo-filter-heading">Catégorie ILO</div><div class="ilo-filter" role="group" aria-label="Filtrer par catégorie ILO">'+opts.map(function(c){return '<button type="button" data-ilo-view="'+view+'" data-ilo-id="'+esc(c.id)+'" class="'+(value===c.id?'active':'')+'" aria-pressed="'+(value===c.id)+'">'+esc(c.name)+'</button>'}).join('')+'</div>';
+}
 function recordAudit(action,info){db.audit.push({time:new Date().toISOString(),action:action,detail:info});if(db.audit.length>500)db.audit.shift()}
 function uid(prefix){return prefix+Date.now()+'_'+Math.random().toString(36).slice(2,8)}
 save();
@@ -54,11 +67,11 @@ function heading(title,extra){return '<div class="title"><h1>'+title+'</h1>'+(ex
 function status(s){var c=lastCheck(s);return c?result(s,c):null}
 // Courbe sur cinq jours calendaires, aujourd'hui inclus, à partir des contrôles enregistrés.
 // Chaque écart entre deux scans est compté une seule fois et rattaché à la date du scan final.
-function dailyTrend(){
+function dailyTrend(category){
  var base=new Date();base.setHours(0,0,0,0);
  var days=[];
  for(var d=4;d>=0;d--){var z=new Date(base);z.setDate(z.getDate()-d);days.push({date:localDate(z),day:z.toLocaleDateString('fr-FR',{weekday:'short'}).replace('.',''),num:z.toLocaleDateString('fr-FR',{day:'2-digit',month:'2-digit'}),actual:0,expected:0,count:0})}
- db.sessions.forEach(function(s){
+ scopedSessions(category||'all').forEach(function(s){
   var previousTime=new Date(s.start),previousPieces=0;
   sessionChecks(s).forEach(function(c){
    var time=new Date(c.time),pieces=sessionPieces(s,c),elapsed=(time-previousTime)/3600000,increment=pieces-previousPieces;
@@ -69,11 +82,11 @@ function dailyTrend(){
  });
  return days.map(function(day){day.pct=day.expected>0?day.actual/day.expected*100:null;return day});
 }
-function renderTrend(){
- var data=dailyTrend(),valid=data.filter(function(d){return d.pct!==null});
+function renderTrend(category){
+ var data=dailyTrend(category||'all'),valid=data.filter(function(d){return d.pct!==null});
  var actual=valid.reduce(function(a,d){return a+d.actual},0),expected=valid.reduce(function(a,d){return a+d.expected},0);
  var avg=expected>0?fmt(actual/expected*100)+' %':'—';
- var html='<section class="card trend-card" aria-label="Courbe de productivité des cinq derniers jours"><div class="trend-heading"><div><h2>📈 Productivité · 5 jours</h2><div class="small muted">Évolution de la production de l’équipe</div></div><div class="trend-kpi">'+avg+'</div></div>';
+ var html='<section class="card trend-card" aria-label="Courbe de productivité des cinq derniers jours"><div class="trend-heading"><div><h2>📈 Productivité · 5 jours</h2><div class="small muted">Évolution de la production dans la sélection</div></div><div class="trend-kpi">'+avg+'</div></div>';
  var W=340,L=29,R=11,T=27,B=129,step=(W-L-R)/4;
  var percentages=valid.map(function(x){return x.pct});
  var max=Math.max(120,percentages.length?Math.ceil(Math.max.apply(null,percentages)/20)*20:120),min=Math.max(0,Math.min(60,percentages.length?Math.floor(Math.min.apply(null,percentages)/20)*20:60));
@@ -97,14 +110,15 @@ function renderTrend(){
  return html;
 }
 function renderDashboard(){
- var act=db.sessions.filter(function(s){return !s.end});
+ var act=db.sessions.filter(function(s){return !s.end&&categoryMatchesSession(s,dashboardIlo)});
  var withChecks=act.filter(function(s){return !!lastCheck(s)});
  var assessed=withChecks.map(function(s){return status(s)});
  var good=assessed.filter(function(x){return x.diff>=-0.0001}).length;
  var actual=assessed.reduce(function(x,y){return x+y.actual},0);
  var expected=assessed.reduce(function(x,y){return x+y.expected},0);
  var html=heading('Tableau de bord','<button class="btn secondary sm" data-tab="scan">+ Contrôle</button>');
- html+=renderTrend();
+ html+=renderIloFilter(dashboardIlo,'dashboard');
+ html+=renderTrend(dashboardIlo);
  html+='<div class="dashboard-switch" role="group" aria-label="Affichage du tableau de bord"><button data-dashboard-view="people" class="'+(dashboardView==='people'?'active':'')+'" aria-pressed="'+(dashboardView==='people')+'">👥 Par personne</button><button data-dashboard-view="operations" class="'+(dashboardView==='operations'?'active':'')+'" aria-pressed="'+(dashboardView==='operations')+'">⚙️ Par opération</button></div>';
  if(dashboardView==='operations'){
   var groups=db.ops.map(function(o){
@@ -114,7 +128,7 @@ function renderDashboard(){
    var a=records.reduce(function(sum,x){return sum+x.r.actual},0);
    var e=records.reduce(function(sum,x){return sum+x.r.expected},0);
    return {operation:o,sessions:sessions,records:records,actual:a,expected:e,diff:a-e,unmeasured:sessions.length-observed.length};
-  }).filter(function(g){return g.sessions.length>0});
+  }).filter(function(g){return g.sessions.length>0&& (dashboardIlo==='all'||g.operation.categoryId===dashboardIlo)});
   var late=groups.filter(function(g){return g.records.length&&g.diff<-.0001}).length;
   var waiting=groups.filter(function(g){return !g.records.length}).length;
   html+='<div class="grid3"><div class="metric"><strong>'+groups.length+'</strong><span>Opérations actives</span></div><div class="metric"><strong class="red">'+late+'</strong><span>En retard*</span></div><div class="metric"><strong>'+ (expected>0?fmt(actual/expected*100)+' %':'—')+'</strong><span>Productivité*</span></div></div>';
@@ -143,8 +157,8 @@ function renderDashboard(){
  }else{
   html+='<div class="grid3"><div class="metric"><strong>'+act.length+'</strong><span>En production</span></div><div class="metric"><strong>'+good+'/'+withChecks.length+'</strong><span>À l’heure*</span></div><div class="metric"><strong>'+ (expected>0?fmt(actual/expected*100)+' %':'—')+'</strong><span>Productivité*</span></div></div>';
   html+='<p class="muted tiny">* Selon le dernier contrôle de chaque session active, et non en temps réel. Sans déduction automatique des pauses.</p>';
-  html+='<div class="card"><h2>Équipe aujourd’hui</h2>';
-  availablePeople().forEach(function(p){var s=active(p.id),c=s?lastCheck(s):null,r=c?result(s,c):null;html+='<div class="person row">'+avatar(p)+'<div class="grow"><div class="name">'+esc(p.name)+'</div><div class="small muted">'+(s?esc((op(s.opId)||{}).name||'Opération')+' · '+s.rate+' p/h':'Pas encore affecté')+'</div></div><div style="text-align:right"><span class="tag '+(r?(r.diff>=0?'ok':'bad'):(s?'warn':''))+'">'+(r?(r.diff>=0?'Avance':'Retard'):' '+(s?'En cours':'Absent'))+'</span><div class="small '+(r?(r.diff>=0?'green':'red'):'muted')+'" style="margin-top:5px">'+(r?signed(r.deltaMin)+' min':'—')+'</div></div></div>'});html+='</div>';
+  html+='<div class="card"><h2>Équipe aujourd’hui'+(dashboardIlo==='all'?'':' · '+esc(categoryName(dashboardIlo)))+'</h2>';
+  availablePeople().filter(function(p){return dashboardIlo==='all'||categoryForPerson(p)===dashboardIlo}).forEach(function(p){var s=active(p.id),c=s?lastCheck(s):null,r=c?result(s,c):null;html+='<div class="person row">'+avatar(p)+'<div class="grow"><div class="name">'+esc(p.name)+'</div><div class="small muted">'+(s?esc((op(s.opId)||{}).name||'Opération')+' · '+s.rate+' p/h':'Pas encore affecté')+'</div></div><div style="text-align:right"><span class="tag '+(r?(r.diff>=0?'ok':'bad'):(s?'warn':''))+'">'+(r?(r.diff>=0?'Avance':'Retard'):' '+(s?'En cours':'Absent'))+'</span><div class="small '+(r?(r.diff>=0?'green':'red'):'muted')+'" style="margin-top:5px">'+(r?signed(r.deltaMin)+' min':'—')+'</div></div></div>'});html+='</div>';
  }
  html+='<div class="notice">💡 Scanne un badge ou sélectionne une personne dans « Scanner » pour enregistrer une affectation ou un contrôle.</div>';
  return html;
@@ -158,7 +172,21 @@ return html}
 function assignCategoryOptions(){var cat=el('assignCategory'),pick=el('assignOp');if(!cat||!pick)return;var choices=db.ops.filter(function(o){return o.categoryId===cat.value});pick.innerHTML=choices.map(function(o){return '<option value="'+esc(o.id)+'">'+esc(o.name)+'</option>'}).join('');if(!choices.length){el('opDetails').innerHTML='<div class="notice warning">Aucune opération dans cette catégorie.</div>';return}opDetails()}
 function opDetails(){var o=op(el('assignOp').value);if(!o)return;var p=person(selected);var custom=p&&p.rates&&p.rates[o.id];el('opDetails').innerHTML='<div class="grid">'+textInput('assignRate','Cadence (pièces/heure)',custom||o.rate,'number','min="0.01" step="any"')+textInput('assignLot','Pièces par lot',o.lot,'number','min="1" step="1"')+'</div><p class="help">Cadence standard : '+o.rate+' p/h. Tu peux personnaliser la cadence pour cette affectation.</p>'}
 function liveResult(){var p=person(selected),s=p&&active(p.id);if(!s||!el('liveResult'))return;var lots=Number(el('scanLots').value),t=el('scanTime').value;if(!isFinite(lots)||lots<0||lots%1!==0||!t){el('liveResult').innerHTML='<p class="muted small">Indique un nombre entier de lots et une heure valide.</p>';return}var c={lots:lots,time:new Date(t).toISOString()},r=result(s,c);el('liveResult').innerHTML='<div class="summary"><h3>Résultat calculé</h3><div class="kv"><span>Production attendue</span><strong>'+fmt(r.expected)+' pièces</strong></div><div class="kv"><span>Production réelle</span><strong>'+fmt(r.actual)+' pièces</strong></div><div class="kv"><span>Écart pièces</span><strong class="'+(r.diff>=0?'green':'red')+'">'+signed(r.diff)+' pièces</strong></div><div class="kv"><span>Écart temps</span><strong class="'+(r.diff>=0?'green':'red')+'">'+signed(r.deltaMin)+' min</strong></div><div class="kv"><span>Productivité</span><strong>'+fmt(r.pct)+' %</strong></div></div>'}
-function renderTeam(){var html=heading('Mon équipe','<button class="btn sm" id="addPerson">+ Ajouter</button>');html+='<div class="card"><p class="muted small">Appuie sur un collaborateur pour consulter sa fiche. Tu peux ensuite l’archiver, le réactiver ou le supprimer.</p>';availablePeople().forEach(function(p){var a=active(p.id),o=a&&op(a.opId);html+='<div class="person row"><button type="button" class="team-person-open" data-openperson="'+esc(p.id)+'">'+avatar(p)+'<span class="grow"><span class="name" style="display:block">'+esc(p.name)+'</span><span class="small muted" style="display:block;margin-top:3px">'+(a?'🟢 '+esc(o?o.name:'Opération en cours'):'⚪ Non affecté')+' · '+Object.keys(p.skills||{}).length+' compétence(s)</span></span><span class="team-chevron">›</span></button><button class="btn secondary sm" data-editperson="'+esc(p.id)+'">Modifier</button></div>'});if(!availablePeople().length)html+='<div class="empty">Aucun collaborateur actif.</div>';html+='</div>';var archived=db.people.filter(function(p){return p.archived});if(archived.length){html+='<div class="card"><h2>📦 Collaborateurs archivés ('+archived.length+')</h2><p class="section-hint">Les historiques sont conservés. Les personnes archivées ne peuvent plus être affectées.</p>';archived.forEach(function(p){html+='<div class="person row">'+avatar(p)+'<div class="grow"><strong>'+esc(p.name)+'</strong><div class="small muted">'+esc(p.id)+'</div></div><button class="btn secondary sm" data-restoreperson="'+esc(p.id)+'">Réactiver</button><button class="btn danger sm" data-deleteperson="'+esc(p.id)+'">Supprimer</button></div>'});html+='</div>'}return html}
+function renderTeam(){
+ var all=availablePeople(),filtered=all.filter(function(p){return teamIlo==='all'||categoryForPerson(p)===teamIlo});
+ var measured=filtered.map(function(p){var a=active(p.id),c=a&&lastCheck(a);return c?result(a,c):null}).filter(Boolean);
+ var produced=measured.reduce(function(n,r){return n+r.actual},0),expected=measured.reduce(function(n,r){return n+r.expected},0);
+ var html=heading('Mon équipe','<button class="btn sm" id="addPerson">+ Ajouter</button>');
+ html+=renderIloFilter(teamIlo,'team');
+ html+='<div class="grid3 ilo-summary"><div class="metric"><strong>'+filtered.length+'</strong><span>Collaborateurs</span></div><div class="metric"><strong>'+measured.length+'</strong><span>Contrôlés</span></div><div class="metric"><strong class="'+(expected&&produced<expected?'red':'green')+'">'+(expected?fmt(produced/expected*100)+' %':'—')+'</strong><span>Productivité*</span></div></div>';
+ html+='<p class="small muted">* Selon le dernier contrôle des sessions en cours. Les personnes sans contrôle ne sont pas incluses dans le taux.</p>';
+ html+='<div class="card"><p class="muted small">'+(teamIlo==='all'?'Toutes les personnes actives, y compris celles sans affectation.':'Personnes actuellement affectées à une opération de '+esc(categoryName(teamIlo))+'.')+' Appuie sur un collaborateur pour consulter sa fiche.</p>';
+ filtered.forEach(function(p){var a=active(p.id),o=a&&op(a.opId),c=a&&lastCheck(a),r=c?result(a,c):null;html+='<div class="person row"><button type="button" class="team-person-open" data-openperson="'+esc(p.id)+'">'+avatar(p)+'<span class="grow"><span class="name" style="display:block">'+esc(p.name)+'</span><span class="small muted" style="display:block;margin-top:3px">'+(a?'🟢 '+esc(o?o.name:'Opération en cours'):'⚪ Non affecté')+' · '+Object.keys(p.skills||{}).length+' compétence(s)</span><span class="small '+(r?(r.diff>=0?'green':'red'):'muted')+'" style="display:block;margin-top:5px">'+(r?fmt(r.pct)+' % · '+signed(r.deltaMin)+' min':a?'À contrôler':'—')+'</span></span><span class="team-chevron">›</span></button><button class="btn secondary sm" data-editperson="'+esc(p.id)+'">Modifier</button></div>'});
+ if(!filtered.length)html+='<div class="empty">'+(teamIlo==='all'?'Aucun collaborateur actif.':'Aucun collaborateur actuellement affecté à cette catégorie.')+'</div>';
+ html+='</div>';
+ if(teamIlo==='all'){var archived=db.people.filter(function(p){return p.archived});if(archived.length){html+='<div class="card"><h2>📦 Collaborateurs archivés ('+archived.length+')</h2><p class="section-hint">Les historiques sont conservés. Les personnes archivées ne peuvent plus être affectées.</p>';archived.forEach(function(p){html+='<div class="person row">'+avatar(p)+'<div class="grow"><strong>'+esc(p.name)+'</strong><div class="small muted">'+esc(p.id)+'</div></div><button class="btn secondary sm" data-restoreperson="'+esc(p.id)+'">Réactiver</button><button class="btn danger sm" data-deleteperson="'+esc(p.id)+'">Supprimer</button></div>'});html+='</div>'}}
+ return html
+}
 function profileDaily(personId){
  var days=[];var today=new Date();today.setHours(0,0,0,0);
  for(var i=6;i>=0;i--){var day=new Date(today);day.setDate(day.getDate()-i);days.push({date:localDate(day),label:day.toLocaleDateString('fr-FR',{weekday:'short'}).replace('.',''),actual:0,expected:0,count:0})}
@@ -277,7 +305,7 @@ function scanCamera(){
  });
 }
 function manualCode(){var value=prompt('Code du badge (ex. P01) :');if(value===null)return;value=value.trim().toUpperCase();if(person(value)&&!person(value).archived){selected=value;render();toast('Badge identifié : '+value)}else alert('Aucun opérateur ne correspond au code « '+value+' ».')}
-document.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var t=b.getAttribute('data-tab');if(t){stopCam();changeTab(t);return}var dv=b.getAttribute('data-dashboard-view');if(dv){dashboardView=dv;render();return}var pid=b.getAttribute('data-openperson');if(pid){profileId=pid;changeTab('profile');return}var ep=b.getAttribute('data-editperson'),eo=b.getAttribute('data-editop');if(ep){editing=ep;changeTab('personEdit');return}if(eo){editing=eo;changeTab('opEdit');return}var cat=b.getAttribute('data-category');if(cat){chosenCategory=cat;changeTab('category');return}
+document.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var t=b.getAttribute('data-tab');if(t){stopCam();changeTab(t);return}var iv=b.getAttribute('data-ilo-view');if(iv){var value=b.getAttribute('data-ilo-id');if(iv==='dashboard')dashboardIlo=value;else if(iv==='team')teamIlo=value;render();return}var dv=b.getAttribute('data-dashboard-view');if(dv){dashboardView=dv;render();return}var pid=b.getAttribute('data-openperson');if(pid){profileId=pid;changeTab('profile');return}var ep=b.getAttribute('data-editperson'),eo=b.getAttribute('data-editop');if(ep){editing=ep;changeTab('personEdit');return}if(eo){editing=eo;changeTab('opEdit');return}var cat=b.getAttribute('data-category');if(cat){chosenCategory=cat;changeTab('category');return}
 var ap=b.getAttribute('data-archiveperson');if(ap){var p=person(ap);if(p){if(active(ap)){alert('Termine d’abord l’opération en cours avant d’archiver.');return}if(confirm('Archiver '+p.name+' ? Son historique sera conservé.')){p.archived=true;recordAudit('archive_person',ap);save();changeTab('team');toast('Collaborateur archivé')}}return}
 var rp=b.getAttribute('data-restoreperson');if(rp){var p=person(rp);if(p){p.archived=false;recordAudit('restore_person',rp);save();changeTab('team');toast('Collaborateur réactivé')}return}
 var dp=b.getAttribute('data-deleteperson');if(dp){var p=person(dp);if(!p)return;var linked=db.sessions.filter(function(s){return s.personId===dp}),ids=linked.map(function(s){return s.id}),checkCount=db.checks.filter(function(c){return ids.indexOf(c.sessionId)>=0}).length;if(!confirm('Supprimer DÉFINITIVEMENT '+p.name+' ? Cela effacera aussi '+linked.length+' session(s) et '+checkCount+' contrôle(s). Cette action est irréversible. Exporte une sauvegarde JSON avant si nécessaire.'))return;if(prompt('Pour confirmer, saisis SUPPRIMER :')!=='SUPPRIMER')return;db.checks=db.checks.filter(function(c){return ids.indexOf(c.sessionId)<0});db.sessions=db.sessions.filter(function(s){return s.personId!==dp});db.people=db.people.filter(function(x){return x.id!==dp});recordAudit('delete_person',dp);if(selected===dp)selected=null;save();changeTab('team');toast('Collaborateur et historiques supprimés');return}
